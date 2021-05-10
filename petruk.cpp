@@ -38,7 +38,7 @@ int main(){
   cin.ignore(1,'\n');
   for(int i=0;i<n;i++){
     cin.getline(word,16,'\n');
-    if(searchVertical(w0rd) || searchHorizontal(word))
+    if(searchVertical(word) || searchHorizontal(word))
       cout<<"Ada\n";
     else
       cout<< "Tidak Ada\n";
