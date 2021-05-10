@@ -48,7 +48,7 @@ int main(){
 bool searchHorizontal(char *n){
 	bool mantap;
 	for(int i=0;i<15;i++){
-		if(strstr((words+i),n) || strstr(reverse((words+i)),n)){
+		if(strstr(*(words+i),n) || strstr(reverse(*(words+i)),n)){
 			mantap = true;
 			break;
 		}
