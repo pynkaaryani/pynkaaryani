@@ -30,7 +30,6 @@ char *reverse(char *o);
 bool searchVertical(char *n);
 bool searchHorizontal(char *n);
 
-
 int main(){
   char word[16];
   int n;
@@ -67,7 +66,6 @@ char *getWordVertical(int q){
 		for(int i=0;i<15;i++){
 		*(string+i) = words[i][q];
 		}
-		
 		char *n = string;
 		return n;
 }
@@ -77,7 +75,6 @@ char *reverse(char *o){
     for(int i = 0;i<15;i++){
         *(n+i) = *(o+14-i);
     }
-
     return n;
 }
 
@@ -91,7 +88,6 @@ bool searchVertical(char *n){
 		else
 		{
 		    mantap = false;
-
 		}
 	}
 	return mantap;
