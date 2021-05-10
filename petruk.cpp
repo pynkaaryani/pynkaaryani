@@ -31,7 +31,6 @@ bool searchVertical(char *n);
 bool searchHorizontal(char *n);
 
 
-
 int main(){
   char word[16];
   int n;
@@ -43,3 +42,6 @@ int main(){
       cout<<"Ada\n";
     else
       cout<< "Tidak Ada\n";
+     }
+    return 0;
+}
