@@ -24,3 +24,8 @@ char words[rows][cols] =      { "tgbwwinterwsesn",
                                 "mosgzczetdbooto",
                                 "pdcrzmsngrdnrpz",
                                 "ohnkzwaterjgtra"};
+
+char *getWordVertical(int q);
+char *reverse(char *o);
+bool searchVertical(char *n);
+bool searchHorizontal(char *n);
